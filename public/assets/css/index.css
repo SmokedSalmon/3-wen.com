@@ -185,3 +185,8 @@ h2 {
     font-size: 10px;
   }
 }
+
+h2.bottom-note {
+    top: auto;
+    bottom: 3%;
+}
