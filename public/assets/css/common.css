@@ -928,6 +928,21 @@ body:not(.index):not(.hiding) #mainVisual .btnScroll {
   margin-right: auto;
 }
 
+.mainLogo .weChat-QR {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: auto;
+  bottom: -200px;
+}
+
+.mainLogo .weChat-QR img {
+    width: inherit;
+}
+
 @media screen and (max-width: 900px) {
   .mainLogo {
     width: 240px !important;
@@ -943,6 +958,9 @@ body:not(.index):not(.hiding) #mainVisual .btnScroll {
   .mainLogo .txt {
     width: 240px !important;
     height: 17px !important;
+  }
+  .mainLogo .weChat-QR {
+    
   }
 }
 
