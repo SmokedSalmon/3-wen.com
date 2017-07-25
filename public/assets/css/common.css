@@ -960,7 +960,7 @@ body:not(.index):not(.hiding) #mainVisual .btnScroll {
     height: 17px !important;
   }
   .mainLogo .weChat-QR {
-    
+    width: 50px;
   }
 }
 
